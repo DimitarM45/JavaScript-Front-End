@@ -1,10 +1,4 @@
 function printVacationPrice(peopleCount, groupType, weekday) {
-    if (peopleCount <= 0) {
-        console.log("Total price: 0.00");
-        
-        return;
-    } 
-
     let price;
     let totalPrice = 0;
 
@@ -24,7 +18,7 @@ function printVacationPrice(peopleCount, groupType, weekday) {
 
         totalPrice = peopleCount * price;
 
-        if (people >= 100) totalPrice -= price * 10;
+        if (peopleCount >= 100) totalPrice -= price * 10;
 
     } else if (groupType == "Regular") {
         if (weekday == "Friday") price = 15;
