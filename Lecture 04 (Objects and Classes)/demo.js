@@ -1,10 +1,9 @@
-let obj = {
-  the: "the",
-  sayHello: function () {
-    console.log("hello");
+class Student {
+  constructor(name) {
+    this.name = name;
   }
-};
+}
 
-console.log(Object.keys(obj));
-console.log(Object.values(obj));
-console.log(Object.entries(obj));
+let student = new Student("NAme");
+
+console.log(student);
