@@ -1,1 +1,1 @@
-# SoftUni JS Front-End course exercises
+# SoftUni JS Front-End Course Exercises
